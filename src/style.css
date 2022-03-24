@@ -1,20 +1,12 @@
 /* styles go here */
 /* styles go here */
-body {
-  max-width: 80%;
-  margin: 30px 50px;
-}
-
 .fieldset {
-  border: 1px solid black;
-  margin-top: 20px;
+  border: 1px solid;
+  margin-bottom: 21px;
+  margin-left: 3px;
 }
 
 .form-field {
   display: block;
-  margin-top: 10px;
-}
-
-.button {
-  margin-top: 30px;
+  padding-top: 10px;
 }

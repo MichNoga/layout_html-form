@@ -11,11 +11,12 @@
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="fieldset">
         <legend>Personal information</legend>
-        <label class="form-field">
+        <label>
           Surname:
           <input
           type="text"
           name="surname"
+          autocomplete="off"
           >
         </label>
         <label class="form-field">
@@ -23,10 +24,11 @@
           <input
           type="text"
           name="name"
+          autocomplete="off"
           >
         </label>
         <label class="form-field">
-          How old are you?
+          How old are You?
           <input
           type="number"
           name="age"
@@ -53,11 +55,13 @@
 
       <fieldset class="fieldset">
         <legend>Registration</legend>
-        <label class="form-field">
+        <label>
           E-mail:
           <input
           type="email"
           name="email"
+          placeholder="email@example.com"
+          autocomplete="off"
           required>
         </label>
         <label class="form-field">
@@ -67,6 +71,7 @@
           name="pass"
           minlength="4"
           maxlength="16"
+          autocomplete="off"
           required>
         </label>
       </fieldset>
@@ -100,6 +105,7 @@
           <input
           type="time"
           name="time-to-bed"
+          step="1"
           >
         </label>
         <label class="form-field">
@@ -127,11 +133,12 @@
 
       <fieldset class="fieldset">
         <legend>Additional info:</legend>
-        <label class="form-field">
+        <label>
           Comments:
           <textarea name="comments"
-          cols="30"
-          rows="3"
+          cols="20"
+          rows="2"
+          autocomplete="off"
           ></textarea>
         </label>
         <label class="form-field">
